@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B0E64E419E686C20067FE40 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B0E64E319E686C20067FE40 /* Default-568h@2x.png */; };
+		5BAE116019E5230600AC9FA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE115F19E5230600AC9FA8 /* main.m */; };
+		5BAE116319E5230600AC9FA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE116219E5230600AC9FA8 /* AppDelegate.m */; };
+		5BAE116619E5230600AC9FA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE116519E5230600AC9FA8 /* ViewController.m */; };
+		5BAE116B19E5230600AC9FA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BAE116A19E5230600AC9FA8 /* Images.xcassets */; };
+		5BAE117A19E5230600AC9FA8 /* DHTabBarMenuViewPagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE117919E5230600AC9FA8 /* DHTabBarMenuViewPagerTests.m */; };
+		5BAE118B19E523B000AC9FA8 /* DHLandscapeMenuScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE118619E523B000AC9FA8 /* DHLandscapeMenuScrollView.m */; };
+		5BAE118C19E523B000AC9FA8 /* DHLandscapeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE118819E523B000AC9FA8 /* DHLandscapeTableView.m */; };
+		5BAE118D19E523B000AC9FA8 /* DHMenuPagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE118A19E523B000AC9FA8 /* DHMenuPagerViewController.m */; };
+		5BAE119019E5240400AC9FA8 /* DHTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE118F19E5240400AC9FA8 /* DHTabBarViewController.m */; };
+		5BAE119319E537A500AC9FA8 /* ParentCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE119219E537A500AC9FA8 /* ParentCellViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BAE117419E5230600AC9FA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BAE115219E5230600AC9FA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BAE115919E5230600AC9FA8;
+			remoteInfo = DHTabBarMenuViewPager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B0E64E319E686C20067FE40 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5BAE115A19E5230600AC9FA8 /* DHTabBarMenuViewPager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHTabBarMenuViewPager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BAE115E19E5230600AC9FA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BAE115F19E5230600AC9FA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BAE116119E5230600AC9FA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5BAE116219E5230600AC9FA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5BAE116419E5230600AC9FA8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5BAE116519E5230600AC9FA8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5BAE116A19E5230600AC9FA8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5BAE117319E5230600AC9FA8 /* DHTabBarMenuViewPagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHTabBarMenuViewPagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BAE117819E5230600AC9FA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BAE117919E5230600AC9FA8 /* DHTabBarMenuViewPagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHTabBarMenuViewPagerTests.m; sourceTree = "<group>"; };
+		5BAE118519E523B000AC9FA8 /* DHLandscapeMenuScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHLandscapeMenuScrollView.h; sourceTree = "<group>"; };
+		5BAE118619E523B000AC9FA8 /* DHLandscapeMenuScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHLandscapeMenuScrollView.m; sourceTree = "<group>"; };
+		5BAE118719E523B000AC9FA8 /* DHLandscapeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHLandscapeTableView.h; sourceTree = "<group>"; };
+		5BAE118819E523B000AC9FA8 /* DHLandscapeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHLandscapeTableView.m; sourceTree = "<group>"; };
+		5BAE118919E523B000AC9FA8 /* DHMenuPagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMenuPagerViewController.h; sourceTree = "<group>"; };
+		5BAE118A19E523B000AC9FA8 /* DHMenuPagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMenuPagerViewController.m; sourceTree = "<group>"; };
+		5BAE118E19E5240400AC9FA8 /* DHTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTabBarViewController.h; sourceTree = "<group>"; };
+		5BAE118F19E5240400AC9FA8 /* DHTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTabBarViewController.m; sourceTree = "<group>"; };
+		5BAE119119E537A500AC9FA8 /* ParentCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentCellViewController.h; sourceTree = "<group>"; };
+		5BAE119219E537A500AC9FA8 /* ParentCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentCellViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BAE115719E5230600AC9FA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BAE117019E5230600AC9FA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BAE115119E5230600AC9FA8 = {
+			isa = PBXGroup;
+			children = (
+				5B0E64E319E686C20067FE40 /* Default-568h@2x.png */,
+				5BAE115C19E5230600AC9FA8 /* DHTabBarMenuViewPager */,
+				5BAE117619E5230600AC9FA8 /* DHTabBarMenuViewPagerTests */,
+				5BAE115B19E5230600AC9FA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BAE115B19E5230600AC9FA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BAE115A19E5230600AC9FA8 /* DHTabBarMenuViewPager.app */,
+				5BAE117319E5230600AC9FA8 /* DHTabBarMenuViewPagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BAE115C19E5230600AC9FA8 /* DHTabBarMenuViewPager */ = {
+			isa = PBXGroup;
+			children = (
+				5BAE118319E5237C00AC9FA8 /* DHTabBarPagerView */,
+				5BAE116119E5230600AC9FA8 /* AppDelegate.h */,
+				5BAE116219E5230600AC9FA8 /* AppDelegate.m */,
+				5BAE116419E5230600AC9FA8 /* ViewController.h */,
+				5BAE116519E5230600AC9FA8 /* ViewController.m */,
+				5BAE116A19E5230600AC9FA8 /* Images.xcassets */,
+				5BAE115D19E5230600AC9FA8 /* Supporting Files */,
+			);
+			path = DHTabBarMenuViewPager;
+			sourceTree = "<group>";
+		};
+		5BAE115D19E5230600AC9FA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BAE115E19E5230600AC9FA8 /* Info.plist */,
+				5BAE115F19E5230600AC9FA8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BAE117619E5230600AC9FA8 /* DHTabBarMenuViewPagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BAE117919E5230600AC9FA8 /* DHTabBarMenuViewPagerTests.m */,
+				5BAE117719E5230600AC9FA8 /* Supporting Files */,
+			);
+			path = DHTabBarMenuViewPagerTests;
+			sourceTree = "<group>";
+		};
+		5BAE117719E5230600AC9FA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BAE117819E5230600AC9FA8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BAE118319E5237C00AC9FA8 /* DHTabBarPagerView */ = {
+			isa = PBXGroup;
+			children = (
+				5BAE118419E523B000AC9FA8 /* DHMenuViewPagerView */,
+				5BAE118E19E5240400AC9FA8 /* DHTabBarViewController.h */,
+				5BAE118F19E5240400AC9FA8 /* DHTabBarViewController.m */,
+				5BAE119119E537A500AC9FA8 /* ParentCellViewController.h */,
+				5BAE119219E537A500AC9FA8 /* ParentCellViewController.m */,
+			);
+			path = DHTabBarPagerView;
+			sourceTree = "<group>";
+		};
+		5BAE118419E523B000AC9FA8 /* DHMenuViewPagerView */ = {
+			isa = PBXGroup;
+			children = (
+				5BAE118519E523B000AC9FA8 /* DHLandscapeMenuScrollView.h */,
+				5BAE118619E523B000AC9FA8 /* DHLandscapeMenuScrollView.m */,
+				5BAE118719E523B000AC9FA8 /* DHLandscapeTableView.h */,
+				5BAE118819E523B000AC9FA8 /* DHLandscapeTableView.m */,
+				5BAE118919E523B000AC9FA8 /* DHMenuPagerViewController.h */,
+				5BAE118A19E523B000AC9FA8 /* DHMenuPagerViewController.m */,
+			);
+			path = DHMenuViewPagerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BAE115919E5230600AC9FA8 /* DHTabBarMenuViewPager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BAE117D19E5230600AC9FA8 /* Build configuration list for PBXNativeTarget "DHTabBarMenuViewPager" */;
+			buildPhases = (
+				5BAE115619E5230600AC9FA8 /* Sources */,
+				5BAE115719E5230600AC9FA8 /* Frameworks */,
+				5BAE115819E5230600AC9FA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DHTabBarMenuViewPager;
+			productName = DHTabBarMenuViewPager;
+			productReference = 5BAE115A19E5230600AC9FA8 /* DHTabBarMenuViewPager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BAE117219E5230600AC9FA8 /* DHTabBarMenuViewPagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BAE118019E5230600AC9FA8 /* Build configuration list for PBXNativeTarget "DHTabBarMenuViewPagerTests" */;
+			buildPhases = (
+				5BAE116F19E5230600AC9FA8 /* Sources */,
+				5BAE117019E5230600AC9FA8 /* Frameworks */,
+				5BAE117119E5230600AC9FA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BAE117519E5230600AC9FA8 /* PBXTargetDependency */,
+			);
+			name = DHTabBarMenuViewPagerTests;
+			productName = DHTabBarMenuViewPagerTests;
+			productReference = 5BAE117319E5230600AC9FA8 /* DHTabBarMenuViewPagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BAE115219E5230600AC9FA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = HuDahan_payMoreGainMore;
+				TargetAttributes = {
+					5BAE115919E5230600AC9FA8 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					5BAE117219E5230600AC9FA8 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 5BAE115919E5230600AC9FA8;
+					};
+				};
+			};
+			buildConfigurationList = 5BAE115519E5230600AC9FA8 /* Build configuration list for PBXProject "DHTabBarMenuViewPager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BAE115119E5230600AC9FA8;
+			productRefGroup = 5BAE115B19E5230600AC9FA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BAE115919E5230600AC9FA8 /* DHTabBarMenuViewPager */,
+				5BAE117219E5230600AC9FA8 /* DHTabBarMenuViewPagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BAE115819E5230600AC9FA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BAE116B19E5230600AC9FA8 /* Images.xcassets in Resources */,
+				5B0E64E419E686C20067FE40 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BAE117119E5230600AC9FA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BAE115619E5230600AC9FA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BAE118B19E523B000AC9FA8 /* DHLandscapeMenuScrollView.m in Sources */,
+				5BAE116619E5230600AC9FA8 /* ViewController.m in Sources */,
+				5BAE118C19E523B000AC9FA8 /* DHLandscapeTableView.m in Sources */,
+				5BAE118D19E523B000AC9FA8 /* DHMenuPagerViewController.m in Sources */,
+				5BAE116319E5230600AC9FA8 /* AppDelegate.m in Sources */,
+				5BAE119019E5240400AC9FA8 /* DHTabBarViewController.m in Sources */,
+				5BAE119319E537A500AC9FA8 /* ParentCellViewController.m in Sources */,
+				5BAE116019E5230600AC9FA8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BAE116F19E5230600AC9FA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BAE117A19E5230600AC9FA8 /* DHTabBarMenuViewPagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BAE117519E5230600AC9FA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BAE115919E5230600AC9FA8 /* DHTabBarMenuViewPager */;
+			targetProxy = 5BAE117419E5230600AC9FA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5BAE117B19E5230600AC9FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BAE117C19E5230600AC9FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BAE117E19E5230600AC9FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DHTabBarMenuViewPager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5BAE117F19E5230600AC9FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DHTabBarMenuViewPager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5BAE118119E5230600AC9FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DHTabBarMenuViewPagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DHTabBarMenuViewPager.app/DHTabBarMenuViewPager";
+			};
+			name = Debug;
+		};
+		5BAE118219E5230600AC9FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DHTabBarMenuViewPagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DHTabBarMenuViewPager.app/DHTabBarMenuViewPager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BAE115519E5230600AC9FA8 /* Build configuration list for PBXProject "DHTabBarMenuViewPager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BAE117B19E5230600AC9FA8 /* Debug */,
+				5BAE117C19E5230600AC9FA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BAE117D19E5230600AC9FA8 /* Build configuration list for PBXNativeTarget "DHTabBarMenuViewPager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BAE117E19E5230600AC9FA8 /* Debug */,
+				5BAE117F19E5230600AC9FA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BAE118019E5230600AC9FA8 /* Build configuration list for PBXNativeTarget "DHTabBarMenuViewPagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BAE118119E5230600AC9FA8 /* Debug */,
+				5BAE118219E5230600AC9FA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BAE115219E5230600AC9FA8 /* Project object */;
+}
