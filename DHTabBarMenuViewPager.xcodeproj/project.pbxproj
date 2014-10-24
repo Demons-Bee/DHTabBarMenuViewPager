@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5B0E64E419E686C20067FE40 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B0E64E319E686C20067FE40 /* Default-568h@2x.png */; };
+		5B54163B19FA36C1001B8FAE /* TabMenu.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5B54163A19FA36C1001B8FAE /* TabMenu.gif */; };
 		5BAE116019E5230600AC9FA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE115F19E5230600AC9FA8 /* main.m */; };
 		5BAE116319E5230600AC9FA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE116219E5230600AC9FA8 /* AppDelegate.m */; };
 		5BAE116619E5230600AC9FA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE116519E5230600AC9FA8 /* ViewController.m */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		5B0E64E319E686C20067FE40 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5B54163A19FA36C1001B8FAE /* TabMenu.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = TabMenu.gif; sourceTree = "<group>"; };
 		5BAE115A19E5230600AC9FA8 /* DHTabBarMenuViewPager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHTabBarMenuViewPager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BAE115E19E5230600AC9FA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BAE115F19E5230600AC9FA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 		5BAE115C19E5230600AC9FA8 /* DHTabBarMenuViewPager */ = {
 			isa = PBXGroup;
 			children = (
+				5B54163A19FA36C1001B8FAE /* TabMenu.gif */,
 				5BAE118319E5237C00AC9FA8 /* DHTabBarPagerView */,
 				5BAE116119E5230600AC9FA8 /* AppDelegate.h */,
 				5BAE116219E5230600AC9FA8 /* AppDelegate.m */,
@@ -237,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B54163B19FA36C1001B8FAE /* TabMenu.gif in Resources */,
 				5BAE116B19E5230600AC9FA8 /* Images.xcassets in Resources */,
 				5B0E64E419E686C20067FE40 /* Default-568h@2x.png in Resources */,
 			);

@@ -8,12 +8,12 @@
 	<string>E3D078D2-E5FF-4892-9274-F239DAD36C87</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>24CE66AFD1119417777F791C539AE724ED04A8BB</key>
+		<key>865211BC86F53B52424B1D217142A8832BD097EC</key>
 		<string>https://github.com/DahanHu/DHTabBarMenuViewPager.git</string>
 	</dict>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>24CE66AFD1119417777F791C539AE724ED04A8BB</key>
+		<key>865211BC86F53B52424B1D217142A8832BD097EC</key>
 		<string>DHTabBarMenuViewPager</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -21,14 +21,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>24CE66AFD1119417777F791C539AE724ED04A8BB</string>
+	<string>865211BC86F53B52424B1D217142A8832BD097EC</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>24CE66AFD1119417777F791C539AE724ED04A8BB</string>
+			<string>865211BC86F53B52424B1D217142A8832BD097EC</string>
 			<key>IDESourceControlWCCName</key>
 			<string>DHTabBarMenuViewPager</string>
 		</dict>
